@@ -1,4 +1,5 @@
-#React - TypeScript - Babel - Webpack
+# React - TypeScript - Babel - Webpack
+
 Pasos para realizar la intalación de React con Typescript y webpack.
 Como comenzar.
 
@@ -21,14 +22,14 @@ Ahora instalamos las dependencias.
 Empezamos el instalando Webpack (empaquetador de módulo), como dependencias de desarrollo.
 
 ```
-$ npm install --save-dev webpack webpack-cli
+$ npm install webpack webpack-cli --save-dev
 ```
 
 Una vez terminada la instalación de Webpack, procedemos a instalar React, también como dependencias de desarrollo ya que podemos tener diferentes proyectos con diferentes versiones de React.
 
 ```
-$ npm install --save react react-dom
-$ npm install --save-dev @types/react @types/react-dom
+$ npm install react react-dom --save-dev
+$ npm install @types/react @types/react-dom --save-dev
 ```
 
 Ha llegado el momento de instalar Typescript en el proyecto.
